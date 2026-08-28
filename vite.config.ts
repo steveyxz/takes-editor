@@ -9,6 +9,7 @@ export default defineConfig({
 
   server: {
     host: "0.0.0.0",
+    allowedHosts: ["takes-editor.onrender.com"],
     port: PORT,
   },
 });
